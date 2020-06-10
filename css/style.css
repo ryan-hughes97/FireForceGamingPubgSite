@@ -1,0 +1,134 @@
+body{
+  background-color:#333;
+  color:#ccc;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:16px;
+  line-height:1.6em;
+  margin:0;
+  margin-bottom:25px;
+}
+
+.container{
+  width: 98%;
+  margin:auto;
+  overflow:hidden;
+}
+
+#main-header a{
+  font-family: 'Russo One', sans-serif;
+  color:rgb(245, 223, 99);
+}
+
+
+#navbar{
+  background-color:rgb(245, 223, 99);
+  color:#ccc;
+  border-bottom:#333 15px solid;
+  overflow:auto; /*traversy used this and said it allows background to show no matter what */
+}
+
+#navbar ul{
+  padding:0;
+  list-style:none;
+}
+
+#navbar li{
+  display:inline;
+}
+
+#navbar a{
+  color:#333;
+  text-decoration:none;
+  font-size:18px;
+  padding-right:15px;
+}
+
+#navbar a:hover{
+  color:gray;
+}
+
+#showcase{
+  background-image:url('../images/showcase.jpg');
+  background-position:right;
+  min-height:500px;
+  margin-bottom:15px;
+  text-align:center;
+}
+
+#main{
+  float:left;
+  width:70%;
+  padding-right:7px;
+  box-sizing:border-box;
+}
+
+#main h1{
+  font-family: 'Russo One', sans-serif;
+  color:rgb(245, 223, 99);
+}
+
+#sidebar{
+  float:right;
+  width:30%;
+  background:rgb(245, 223, 99);
+  color:#333;
+  padding-right:10px;
+  padding-left:10px;
+  padding-bottom:10px;
+  box-sizing:border-box;
+  border-radius:15px;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+#sidebar h3{
+  font-family: 'Russo One', sans-serif;
+  margin:10px;
+  text-align:center;
+}
+
+#sidebar p{
+  margin:0;
+  padding-top:0;
+  padding-left:0;
+  padding-right:0;
+  padding-bottom:15px;
+  text-align:center;
+}
+
+.button{
+  text-align:center;
+  background-color:#333;
+  color:#fff;
+  padding:10px 15px;
+  border:none;
+  border-radius:10px;
+}
+
+.button:hover{
+  background:gray;
+  color:#fff;
+}
+
+a{
+  text-decoration:none;
+}
+
+#profile .main-about{
+  float:left;
+  width:60%;
+}
+
+#profile img{
+  float:right;
+  margin-bottom:15px;
+}
+
+footer{
+  text-align:center;
+  background:rgb(245, 223, 99);
+  color:#333;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:18px;
+}

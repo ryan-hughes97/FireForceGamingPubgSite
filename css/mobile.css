@@ -1,0 +1,27 @@
+#main-header{
+  text-align:center;
+}
+
+#navbar{
+  text-align:center;
+}
+
+#showcase{
+  background-position:center;
+}
+
+#main{
+  float:none;
+  width:100%;
+}
+
+#main h1, #main p{
+  text-align:center;
+}
+
+#sidebar{
+  float:none;
+  width:100%;
+  margin-top:10px;
+  margin-bottom:10px;
+}
